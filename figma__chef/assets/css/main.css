@@ -1,0 +1,596 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff1d4;
+}
+
+.container {
+  /* max-width: 117rem; */
+  width: 94%;
+  margin: 0 auto;
+}
+
+/* main part start  */
+
+.main {
+  position: relative;
+  padding-top: 12rem;
+  /* width: 100vw; */
+}
+
+.main > .section1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #00543d;
+  border-radius: 0 0rem 7rem 7rem;
+}
+
+.container > .main-left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  position: absolute;
+  gap: 3rem;
+}
+
+.main-left h3 {
+  font-family: Sofia Pro;
+  font-size: 9rem;
+  font-weight: 300;
+  line-height: 10.5rem;
+  width: 58rem;
+  color: #fff1d4;
+}
+
+.main-left span {
+  font-family: Sofia Pro;
+  font-size: 9rem;
+  font-weight: 500;
+  line-height: 10.5rem;
+  text-decoration: solid;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+}
+
+.btn a:first-child {
+  padding: 1rem 3.8rem;
+  border-radius: 7rem;
+  text-decoration: none;
+  background: #cc9964;
+  color: #fff;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+}
+
+.btn a:nth-child(2) {
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+  color: #fff1d4;
+}
+
+.main-right img {
+  width: 92.9rem;
+  height: 71.4rem;
+  border-radius: 0 0rem 7rem 0rem;
+}
+
+.section2 {
+  padding-top: 14.4rem;
+  background-color: #fff1d4;
+  padding-bottom: 5rem;
+}
+
+.section2 > .container {
+  display: flex;
+  flex-direction: row;
+  gap: 10.7rem;
+  align-items: center;
+}
+
+.section2 > .container h3 {
+  font-family: Sofia Pro;
+  font-size: 9rem;
+  font-weight: 600;
+  line-height: 10.5rem;
+  color: #cc9964;
+  padding-left: 3rem;
+}
+
+.about-left p {
+  font-family: Sofia Pro;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #00543d;
+  width: 56.3rem;
+}
+
+.btn2 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.btn2 a:first-child {
+  padding: 1rem 3.8rem;
+  border-radius: 7rem;
+  text-decoration: none;
+  color: #fff;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+  background: #00543d;
+}
+
+.btn2 a:nth-child(2) {
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+  color: #00543d;
+}
+
+.section3,
+.section4,
+.section5,
+.section6 {
+  padding-top: 15rem;
+  background-color: #fff1d4;
+  padding: 3rem 2rem 2rem 3rem;
+}
+
+.section3 > .container h3,
+.section6 > .container h3,
+.section4 > .container h3 {
+  font-family: Sofia Pro;
+  font-size: 9rem;
+  font-weight: 600;
+  line-height: 10.5rem;
+  color: #cc9964;
+}
+
+.section3 > .container p {
+  font-family: Sofia Pro;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #00543d;
+  width: 44.7rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 1.8rem;
+  /* background: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.icon > .slider__btn {
+  background-color: #00543d;
+  padding: 2rem;
+  border-radius: 5rem;
+  color: #fff;
+}
+
+.slider1__list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.slider1__img {
+  /* width: 33rem; */
+  width: max-content;
+}
+
+.slider1__img img {
+  width: 33rem;
+  height: 31.6rem;
+  border-radius: 3rem;
+  position: relative;
+}
+
+.slider1__img h5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  font-family: Sofia Pro;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 3.8rem;
+  color: #fff;
+  background-color: black;
+  opacity: 40%;
+  width: 100%;
+  text-align: center;
+  border-radius: 0 0 3rem 3rem;
+  text-decoration-style: solid;
+}
+
+.all__product {
+  text-align: end;
+  padding-bottom: 2rem;
+}
+
+.all__product a {
+  color: #00543d;
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+}
+
+.products__list {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.products__img {
+  border-radius: 5rem;
+  border: 2px solid #cc9964;
+  color: #cc9964;
+  text-align: center;
+}
+
+.products__img img {
+  width: 17.8rem;
+  height: 18.9rem;
+  margin: 4rem 5rem;
+}
+
+.products__img h5 {
+  font-family: Sofia Pro;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  padding-bottom: 2rem;
+}
+.section5 > .container h3 {
+  font-family: Sofia Pro;
+  font-size: 9rem;
+  font-weight: 600;
+  line-height: 10.5rem;
+  color: #cc9964;
+}
+
+.teams {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+
+
+
+.person {
+  border-radius: 3.991rem;
+  background-color: #00543d;
+  display: flex;
+  align-items: center;
+  padding: 4rem 3rem;
+}
+
+.see__more a {
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+  text-align: right;
+  color: #00543d;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.left h6 {
+  font-family: Sofia Pro;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.554rem;
+  color: #fff1d4;
+}
+
+.left p {
+  font-family: Sofia Pro;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.554rem;
+  color: #fff1d4;
+  align-items: center;
+}
+
+.right img {
+  width: 18.1rem;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+.section6 {
+  padding: 5rem;
+}
+
+.section6 > .container h3 {
+  text-align: center;
+}
+
+.contact__parent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact__left,
+.contact__right {
+  width: 50%;
+}
+.contact__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__left ul > li {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  list-style: none;
+  padding-top: 4.4rem;
+  align-items: center;
+}
+
+.contact__left ul > li > a {
+  text-decoration: none;
+  font-family: Sofia Pro;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: -0.015em;
+  color: #00543d;
+}
+
+.contact__left i {
+  font-size: 2.4rem;
+  color: #00543d;
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    padding-top: 10rem;
+  }
+
+  .container > .main-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    position: static;
+    gap: 3rem;
+  }
+
+  .main > .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-left h3 {
+    font-size: 4.4rem;
+    width: 80%;
+  }
+
+  .btn {
+    font-size: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .main-right img {
+    width: 100%;
+    text-align: center;
+    height: 47.3rem;
+    object-fit: cover;
+  }
+
+  .section2 > .container {
+    display: flex;
+    flex-direction: column;
+    gap: 10.7rem;
+    align-items: center;
+  }
+
+  .section2 > .container h3 {
+    font-family: Sofia Pro;
+    font-size: 4.4rem;
+    font-weight: 600;
+    line-height: 5rem;
+  }
+
+  .about-left p,
+  .section3 > .container p {
+    width: 90%;
+  }
+
+  .btn2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn2 a {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .about-right img {
+    width: 24.7rem;
+    height: 28.6rem;
+  }
+
+  .section3 > .container h3,
+  .section6 > .container h3,
+  .section4 > .container h3 {
+    font-size: 4.4rem;
+  }
+  /* .slider1 > .icon {
+    display: none;
+  } */
+
+  .slider1__img {
+    display: none;
+  }
+
+  .slider1__img:first-child {
+    display: block;
+    width: 20.5rem;
+  }
+
+  .slider1__img img {
+    width: 100%;
+    height: 26.279rem;
+  }
+
+  .slider1__img h5 {
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+  }
+
+  .contact__parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact__right {
+    width: 100%;
+    background-color: black;
+  }
+
+  .all__product {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .all__product a {
+    color: #00543d;
+    font-family: Sofia Pro;
+    font-size: 2.4rem;
+    font-weight: 300;
+    line-height: 3.6rem;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .products__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .products__img {
+    border-radius: 5rem;
+    border: 2px solid #cc9964;
+    color: #cc9964;
+    text-align: center;
+  }
+
+  .products__img img {
+    width: 15.103rem;
+    height: 16.036rem;
+    margin: 2rem 3rem;
+  }
+
+  .products__img h5 {
+    font-family: Sofia Pro;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    padding-bottom: 2rem;
+  }
+
+  .teams {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .person {
+    display: none;
+  }
+
+  .person:first-child {
+    display: block;
+  }
+
+  .see__more {
+    display: block;
+  }
+
+  .section5 > .container h3 {
+    font-family: Sofia Pro;
+    font-size: 4.4rem;
+    font-weight: 600;
+    line-height: 5rem;
+    text-align: left;
+  }
+
+  .main-left span {
+    font-family: Sofia Pro;
+    font-size: 4.4rem;
+    font-weight: 500;
+    line-height: 5rem;
+    text-align: left;
+  }
+
+  .contact__right iframe {
+    display: block;
+  }
+}
